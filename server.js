@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    'article_one':{
+    'article-one':{
     title: "Web Development",
     heading: "Web Development",
     paratitle: "Basics of Web Development - Sep 28,2016",
@@ -18,7 +18,7 @@ var articles={
     `
         
     },
-    'article_two':{
+    'article-two':{
          title: "Web Development",
         heading: "Web Development Industry",
         paratitle: "Web Development as a Industry - Sep 28,2016",
@@ -34,7 +34,7 @@ Web development has also impacted personal networking and marketing. Websites ar
         </p>
         `
     },
-    'article_three':{
+    'article-three':{
          title: "Web Development",
         heading: "Security Feature",
         paratitle: "Security Considerations - Sep 28,2016",
