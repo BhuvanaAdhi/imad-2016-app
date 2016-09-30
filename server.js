@@ -15,7 +15,7 @@ var article_one={
             </p>
     `
 };
-function createTemple(data){
+function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
     var paratitle = data.paratitle;
